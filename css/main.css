@@ -1,0 +1,30 @@
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+padding:0;
+}
+
+.button {
+font-size: 50px;
+font-family: monospace;
+color: #ECE9E6;
+background: linear-gradient(to left, #1D2B64, #F8CDDA, #1D2B64);
+text-decoration: none;
+padding: 45px 120px;
+border-radius: 5px;
+background-size: 200%;
+transition: 0.5s;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 0 #E7E9BB;
+}
+
+.button:active {
+    background: #1D2B64;
+}
